@@ -15,6 +15,9 @@ ReactDOM.render(
             <Route exact path="/">
                 <App/>
             </Route>
+            <Route exact path="/showTime">
+                <App/>
+            </Route>
 
             <Route exact path="/artists">
                 <Artist/>
